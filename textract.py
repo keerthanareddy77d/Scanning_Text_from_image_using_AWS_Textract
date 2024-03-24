@@ -6,8 +6,8 @@ from werkzeug.utils import secure_filename
 
 from collections import OrderedDict
 
-ACCESS_KEY_ID = 'AKIARNZAKLFDRUPIJCUF'
-ACCESS_SECRET_KEY = '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'
+ACCESS_KEY_ID = ''
+ACCESS_SECRET_KEY = ''
 
 s3 = boto3.client('s3',
                   aws_access_key_id=ACCESS_KEY_ID,
